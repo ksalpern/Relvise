@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 html,
 body {
+    background-color: #fafafa;
     height: 100%;
     line-height: 1;
     font-size: 14px;
@@ -304,4 +305,144 @@ border: 1px solid #0d5c63;
 .item-service__text {
     color: #737373;
     line-height: 142%;
+}
+/* ------ADVANTAGES-section-------------- */
+.page__advantages {}
+.advantages{
+    padding: 80px 0px; 
+}
+@media(max-width: 992px) {
+    .advantages{
+        padding: 50px 0px; 
+    }
+}
+@media(max-width: 767px) {
+    .advantages{
+        padding: 30px 0px; 
+    }
+}
+.advantages__container{}
+._container{}
+.advantages__header {
+    margin: 0px 0px 50px 0px;
+}
+@media(max-width: 767px) {
+    .advantages__header {
+        margin: 0px 0px 25px 0px;
+    }
+}
+
+/* HEADER_BLOCK-------------------------*/
+.header-block{
+    text-align: center;
+   
+    letter-spacing: 0.2px;
+    
+}
+.header-block__title{
+    line-height: 142%;
+    font-size: calc(30px + (40 - 30) * (100vw - 320px) / (1440 - 320));
+    font-weight: 700;
+}
+
+.header-block__title:not(:last-child){
+    margin: 0px 0px 10px 0px;
+}
+.header-block__subtitle{
+    line-height: 142%;
+    color: #737373;
+
+}
+@media(max-width: 992px) {
+    .header-block__title{
+        font-size: 35px;
+    }
+}
+@media(max-width:767px) {
+    .header-block__title{
+        font-size: 30px;
+    }
+}
+/* HEADER_BLOCK------------------------------------------------------- */
+
+
+.advantages__body{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -15px -30px;
+}
+.advantages__column{
+    padding: 0px 15px;
+    flex: 0 1 25%;
+    margin: 0px 0px 30px 0px;
+}
+@media(max-width: 1020px) {
+    .advantages__column{
+        flex: 0 1 50%;
+    }
+}
+@media(max-width: 560px) {
+    .advantages__column{
+        flex: 0 1 100%;
+    }
+}
+.advantages__item{
+    background-color:#fff;
+    padding: 30px 40px;
+    text-align: center;
+    font-weight: 700;
+}
+.advantages__item > *:not(:last-child){
+    margin: 0px 0px 10px 0px;
+}
+.advantages__icon{
+    height: 48px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.advantages__value{
+   
+    font-size: 40px;
+    line-height: 142%;
+}
+.advantages__text{
+    color: #737373;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+/* ------Practice section- */
+.page__practice {
+}
+.practice {
+    padding: 125px 0px 80px 0px; 
+}
+.practice__container {
+}
+
+.practice__header {
+    margin: 0px 0px 45px 0px;
+}
+.practice__body {
+    margin: 0px -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.practice__column {
+    padding: 0px 15px;
+    flex: 0 1 25%;
+}
+.practice__item {
+    background-color: #fff;
+}
+.item-practice {
+}
+.item-practice__link {
+}
+.item-practice__title {
+}
+.item-practice__text {
+}
+.item-practice__image {
 }
