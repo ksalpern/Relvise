@@ -490,14 +490,26 @@ body {
 }
 
 /* ------Practice section- */
-.page__practice {}
 
 .practice {
     padding: 125px 0px 80px 0px;
 }
 
+@media (max-width: 993px) {
+    .practice {
+        padding: 0px 0px 45px 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .practice {
+        padding: 0px 0px 25px 0px;
+    }
+}
+
 .item-practice__content{
 padding: 30px;
+flex: 1 1 auto;
 }
 
 .practice__header {
@@ -505,14 +517,26 @@ padding: 30px;
 }
 
 .practice__body {
-    margin: 0px -20px;
+    margin: 0px -30px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .practice__column {
-    padding: 0px 20px;
+    padding: 0px 30px;
     flex: 0 1 25%;
+}
+
+@media (max-width: 1040px) {
+    .practice__column {
+        flex: 0 1 50%;
+    }
+}
+
+@media (max-width: 630px) {
+    .practice__column {
+        flex: 0 1 100%;
+    }
 }
 
 .practice__item {
@@ -521,6 +545,9 @@ padding: 30px;
 
 .item-practice {
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .item-practice__link {
