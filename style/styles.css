@@ -751,3 +751,103 @@ body {
 .icon-client {
     width: 156px;
 }
+
+/* ---------subscribe section---------- */
+.subscribe {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.subscribe::after {
+    content: '';
+    background-color: #252B42;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 77px;
+}
+
+.subscribe__body {
+    position: relative;
+    z-index: 2;
+    padding: 30px 50px;
+    align-items: center;
+    background-color: #17213c;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 1070px) {
+    .subscribe__body {
+        margin: 0px 30px;
+    }
+}
+
+.subscribe__title {
+    font-size: 133%;
+    line-height: 32px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    color: #fff;
+}
+
+@media (max-width: 810px) {
+    .subscribe__title {
+        margin: 0px 0px 20px 0px;
+        max-width: 266px;
+    }
+
+    .subscribe__body {
+        margin: 0px -15px;
+        padding: 20px 15px;
+        display: block;
+    }
+}
+
+.subscribe__form {
+    flex: 0 1 50%;
+    display: flex;
+    align-items: center;
+}
+
+.subscribe__input {
+    width: 100%;
+    flex: 1 1 auto;
+    padding: 0px 20px;
+    min-height: 58px;
+    background-color: #e6e6e6;
+    color: #737373;
+    box-sizing: border-box;
+    border-right: 0;
+    border-radius: 5px 0px 0px 5px;
+    -webkit-border-radius: 5px 0px 0px 5px;
+    -moz-border-radius: 5px 0px 0px 5px;
+    -ms-border-radius: 5px 0px 0px 5px;
+    -o-border-radius: 5px 0px 0px 5px;
+}
+
+.subscribe__input:focus {
+    color: black;
+}
+
+.subscribe__button {
+    background-color: #ff7b47;
+    border: 1px solid #e6e6e6;
+    border-radius: 0px 5px 5px 0px;
+    -webkit-border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    -ms-border-radius: 0px 5px 5px 0px;
+    -o-border-radius: 0px 5px 5px 0px;
+    display: flex;
+    min-height: 58px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 0px 22px;
+}
