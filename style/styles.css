@@ -583,6 +583,7 @@ body {
 
 .whoweare {
     padding: 80px 0px 130px 0px;
+    background-color: white;
 }
 
 .whoweare__header {
@@ -710,7 +711,7 @@ body {
     }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 767px) {
     .whoweare {
         padding: 20px 0px 50px 0px;
     }
@@ -718,4 +719,35 @@ body {
     .whoweare__video:not(:last-child) {
         margin: 30px 0px 0px 0px;
     }
+}
+
+
+/* --------clients section-------- */
+.clients {
+    padding: 50px 0px;
+}
+
+@media (max-width: 767px) {
+    .clients {
+        padding: 30px 0px;
+    }
+}
+
+.clients__container {}
+
+.clients__items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.clients__item {
+    flex: 0 1 16.6667%;
+    text-align: center;
+    padding: 8px 15px;
+}
+
+.icon-client {
+    width: 156px;
 }
