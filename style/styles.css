@@ -882,6 +882,17 @@ body {
     padding: 50px 15px;
 }
 
+.item-getintouch__active{
+    background-color: #252B42;
+    padding: 80px 15px;
+    color: white;
+}
+
+.item-getintouch__active .item-getintouch__button{
+    border: 1px solid #fff;
+    color: #fff;
+}
+
 .item-getintouch > *:not(:last-child){
     margin: 0px 0px 15px 0px;
 }
@@ -932,6 +943,7 @@ body {
 }
 
 .item-getintouch__button:hover{
+    border: 1px solid #ff7847;
     background-color: #ff7847;
     color: white;
 }
