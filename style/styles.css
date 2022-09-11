@@ -969,3 +969,74 @@ body {
     background-color: #ff7847;
     color: white;
 }
+
+/* -------conatct section----------- */
+.page__contact {
+    background-color: #fff;
+    padding: 42px 0px;
+}
+
+.contact {}
+
+.contact__container {}
+
+.contact__body {
+   
+}
+
+
+.contact__content {
+    padding: 0px 0px 2px 0px;
+}
+
+@media (min-width: 768px) {
+    .contact__body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    } 
+
+    .contact__content {
+        padding: 0px 20px 0px 0px;
+    }
+}
+
+.contact__title {
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    font-size: 24px;
+    line-height: 133%;
+}
+
+.contact__title:not(:last-child){
+    margin: 0px 0px 10px 0px;
+}
+
+.contact__text {
+    color: #737373;
+    line-height: 142%;
+}
+
+.contact__button {
+    display: flex;
+    min-height: 58px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #ff7b47;
+    padding: 5px 40px;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    transition: background-color 0.3s ease 0s;
+    -webkit-transition: background-color 0.3s ease 0s;
+    -moz-transition: background-color 0.3s ease 0s;
+    -ms-transition: background-color 0.3s ease 0s;
+    -o-transition: background-color 0.3s ease 0s;
+}
+
+.contact__button:hover{
+    background-color: #ca5426;
+}
